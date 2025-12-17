@@ -7,6 +7,12 @@
 # Build artifacts
 /bazel-*
 bazel-*
+/build/
+/build/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
 
 # VSCode artifacts
 .vscode
@@ -21,3 +27,8 @@ __pycache__
 *.pyc
 /python/tensorstore/*.so
 /python/tensorstore/*.pyd
+
+# Other C++ build artifacts
+build/*.o
+build/*.a
+build/*.so
