@@ -94,6 +94,7 @@ if(MINGW)
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wa,-mbig-obj")
 endif()
 
+include_directories(${CMAKE_BINARY_DIR})
 
 include(bazel_to_cmake)
 
