@@ -95,6 +95,8 @@ if(MINGW)
 endif()
 
 
+include_directories(${CMAKE_BINARY_DIR})
+
 include(bazel_to_cmake)
 
 bazel_to_cmake(
